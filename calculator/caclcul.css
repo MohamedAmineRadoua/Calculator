@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #252525;
+}
+.calc{
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    margin-top: 150px;
+}
+input{
+    grid-column: span 4;
+    border: none;
+    height: 100px;
+    text-align: end;
+    padding: 0 15px;
+    font-size: 30px;
+    font-family: monospace;
+}
+button{
+    height: 50px;
+    background-color: #202020;
+    border: none;
+    font-size: 30px;
+    color: #ccc;
+    padding: 10px;
+    font-family: monospace;
+}
+button:active{
+    background-color: green;
+}
+#B00:active{
+    background-color: #202020;
+}
+#B00{
+    background-color: blue;
+}
+#B01:active{
+    background-color: #202020;
+}
+#B01{
+    background-color: red;
+}
